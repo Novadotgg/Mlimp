@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="@drawable/bac" >
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="80dp"
+            android:background="@drawable/border"
+            android:padding="30dp" />
+
+        <Button
+            android:id="@+id/snap"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="77dp"
+            android:layout_marginTop="455dp"
+            android:background="@drawable/start"
+            android:text="Capture"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/Detect"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/snap"
+            android:layout_marginLeft="77dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/start"
+            android:text="Recognize"
+            android:textAllCaps="false" />
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:layout_marginLeft="55dp"
+            android:padding="30dp"
+            android:layout_marginTop="600dp"
+            android:background="@drawable/border"
+            android:textColor="@color/white"
+            android:textSize="28dp" />
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="540dp"
+            android:layout_marginLeft="55dp"
+            android:layout_marginTop="840dp"
+            android:background="@drawable/border"
+            android:padding="30dp"
+            android:text="\n\t\t\t\t\t\t\t\tText recognition\n\n
+Description:\n
+It is also known as Optical Character Recognition (OCR) which is a widespread technology to recognize text inside images, such as scanned documents and photos.\n\n
+Working:\n
+OCR analyses the pattern of light and dark that makeup the letters and numbers to turn the scanned image into text\n\n
+Uses:\n\
+1. Automatic number-plate recognition (ANPR) uses this technology to identify the numbers of license plates.\n
+2. It's used in Healthcare industry where patients medical history is digitally accessed by doctor.\n
+3. It is used in Banks providing easy verification, enhancing security.
+
+"
+            android:textColor="@color/white"
+            tools:ignore="HardcodedText" />
+
+    </RelativeLayout>
+
+</ScrollView>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bac">
+
+        <ImageView
+            android:layout_width="350dp"
+            android:layout_height="600dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="20dp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="55dp"
+            android:layout_marginTop="640dp"
+            android:layout_marginRight="38dp"
+            android:background="@drawable/start"
+            android:text="Capture"
+            android:textAllCaps="false"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="600dp"
+            android:layout_marginLeft="35dp"
+            android:padding="30dp"
+            android:layout_marginTop="720dp"
+            android:layout_marginRight="7dp"
+            android:background="@drawable/border"
+            android:text="\n\t\t\t\t\t\t\t\t\t\t\t\t\t\tFace Detection\n\n
+Face Detection keeps  the ability to identify the presence of people's faces within digital images or any kind of live camrera preview activity. Face Detection appli9cation uses Machine Learning and formulas also known as algorithms to detect human faces. Face Detection is a broader term than Face Recognization, it can be used as in the auto focussed cameras.\n\n
+
+Working:\n
+The process of face detection is somewhat complex, face detection algorithms begin usualy byb searching for human eyes, since the eyes constitute consisting of what is known as the valley region and are one of the easiest features to detect. Once eyes are detected, the algorithm might then attempt to detect facial regions including eyebrows, the mouth, nose, nostrills ans the iris. Once the algorithm surmises that it has detected a facial region, it can then apply additional tests to validate wheather it has, in fact, detected a face.\n\n\n
+Uses:\n
+1. Can be used as a means of auto focussing cameras.\n
+2. It can be used to count the number of people present.\n
+3. It can be used for marketing purposes, for example: If any of the person face is detected, ads can be shown to him....rather than showing the ads whole day to no one."
+            android:textColor="@color/white"
+
+            tools:ignore="HardcodedText" />
+
+
+    </RelativeLayout>
+
+</ScrollView>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "549234183649",
+    "project_id": "mlimpeditedit",
+    "storage_bucket": "mlimpeditedit.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:549234183649:android:3b934105e26ff5201416a0",
+        "android_client_info": {
+          "package_name": "com.nova.mlimp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "549234183649-aophl55gja02qgv6j56n319d0p5f45qe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBjlpOpPX6mN6LowWVhWwmlQDQ8WgPdeZc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "549234183649-aophl55gja02qgv6j56n319d0p5f45qe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

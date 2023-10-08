@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Sayan/AndroidStudioProjects/mlimp-20210925T071039Z-001/mlimp/app/src/main/res/layout/activity_face.xml" value="0.2536231884057971" />
+        <entry key="..\:/Users/Sayan/AndroidStudioProjects/mlimp-20210925T071039Z-001/mlimp/app/src/main/res/layout/activity_face_detection.xml" value="0.259375" />
+        <entry key="..\:/Users/Sayan/AndroidStudioProjects/mlimp-20210925T071039Z-001/mlimp/app/src/main/res/layout/activity_main.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/Sayan/AndroidStudioProjects/mlimp-20210925T071039Z-001/mlimp/app/src/main/res/layout/scrollview.xml" value="0.1" />
+        <entry key="..\:/Users/Sayan/AndroidStudioProjects/mlimp/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/Sayan/AndroidStudioProjects/mlimp/app/src/main/res/layout/scrollview.xml" value="0.1" />
+        <entry key="..\:/Users/Sayan/AndroidStudioProjects/mlimp_edit/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1" />
+        <entry key="..\:/Users/Sayan/AndroidStudioProjects/mlimp_edit/app/src/main/res/drawable/b1.xml" value="0.192" />
+        <entry key="..\:/Users/Sayan/AndroidStudioProjects/mlimp_edit/app/src/main/res/drawable/start.xml" value="0.192" />
+        <entry key="..\:/Users/Sayan/AndroidStudioProjects/mlimp_edit/app/src/main/res/layout/activity_bar.xml" value="0.2536231884057971" />
+        <entry key="..\:/Users/Sayan/AndroidStudioProjects/mlimp_edit/app/src/main/res/layout/activity_face.xml" value="0.264" />
+        <entry key="..\:/Users/Sayan/AndroidStudioProjects/mlimp_edit/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/Sayan/AndroidStudioProjects/mlimp_edit/app/src/main/res/layout/activity_object.xml" value="0.2536231884057971" />
+        <entry key="..\:/Users/Sayan/AndroidStudioProjects/mlimp_edit/app/src/main/res/layout/activity_text.xml" value="0.2536231884057971" />
+        <entry key="..\:/Users/Sayan/AndroidStudioProjects/mlimp_edit/app/src/main/res/layout/scrollview.xml" value="0.264" />
+        <entry key="..\:/Users/Sayan/AndroidStudioProjects/projecty/New folder/mlimp_edit/app/src/main/res/layout/activity_bar.xml" value="0.1" />
+        <entry key="..\:/Users/Sayan/AndroidStudioProjects/projecty/New folder/mlimp_edit/app/src/main/res/layout/activity_scancode.xml" value="0.2604166666666667" />
+        <entry key="..\:/Users/Sayan/AndroidStudioProjects/projecty/mlimp text/mlimp_edit/app/src/main/res/drawable/border.xml" value="0.2645" />
+        <entry key="..\:/Users/Sayan/AndroidStudioProjects/projecty/mlimp text/mlimp_edit/app/src/main/res/layout/activity_bar.xml" value="0.264" />
+        <entry key="..\:/Users/Sayan/AndroidStudioProjects/projecty/mlimp text/mlimp_edit/app/src/main/res/layout/activity_face.xml" value="0.264" />
+        <entry key="..\:/Users/Sayan/AndroidStudioProjects/projecty/mlimp text/mlimp_edit/app/src/main/res/layout/activity_object.xml" value="0.4" />
+        <entry key="..\:/Users/Sayan/AndroidStudioProjects/projecty/mlimp text/mlimp_edit/app/src/main/res/layout/activity_selfie.xml" value="0.259375" />
+        <entry key="..\:/Users/Sayan/AndroidStudioProjects/projecty/mlimp text/mlimp_edit/app/src/main/res/layout/activity_text.xml" value="0.264" />
+        <entry key="..\:/Users/Sayan/AndroidStudioProjects/projecty/mlimp text/mlimp_edit/app/src/main/res/layout/activity_text2.xml" value="0.1" />
+        <entry key="..\:/Users/Sayan/AndroidStudioProjects/projecty/mlimp text/mlimp_edit/app/src/main/res/layout/scrollview.xml" value="0.259375" />
+        <entry key="..\:/Users/Sayan/AndroidStudioProjects/projecty/mlimp_edit/app/src/main/res/layout/activity_bar.xml" value="0.259375" />
+        <entry key="..\:/Users/Sayan/AndroidStudioProjects/projecty/mlimp_edit/app/src/main/res/layout/activity_text.xml" value="0.1" />
+        <entry key="..\:/Users/Sayan/AndroidStudioProjects/projecty/mlimp_edit/app/src/main/res/layout/activity_text1.xml" value="0.2210144927536232" />
+        <entry key="..\:/Users/Sayan/AndroidStudioProjects/projecty/mlimp_edit/app/src/main/res/layout/activity_text2.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

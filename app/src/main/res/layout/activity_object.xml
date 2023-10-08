@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Object">
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="@drawable/bac"
+    >
+
+    <ImageView
+        android:layout_width="360dp"
+        android:layout_height="500dp"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="20dp"
+
+        />
+
+    <TextView
+        android:layout_width="360dp"
+        android:layout_height="600dp"
+        android:padding="30dp"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="600dp"
+        android:background="@drawable/border"
+        android:text="\n\t\t\t\t\t\t\t\t\t\t\t\t\tObject detection\n\n
+Description:\n
+Object detection is a computer technology related to computer vision and image processing that deals with detecting instances of semantic objects of a certain class (such as humans, buildings, or cars) in digital images and videos.\n\n
+Working:\n
+Object detection works to identify and locate objects within an image or video. Specifically, object detection draws bounding boxes around these detected objects, which allow us to locate where said objects are  a given scene.\n\n
+Uses:\n
+1. Crowd Counting: object detection helps in business and municipality to measure different kind of traffic in populated areas. \n
+2. Anomaly detection: It is helps in agriculture ,  healthcare to identify plant disease, skin disease etc. \n
+3. Self-driving cars: these system helps to identify, locate and track objects around them in order to move safely.
+"
+        android:textColor="@color/white"
+        tools:ignore="HardcodedText" />
+
+</RelativeLayout>
+</ScrollView>

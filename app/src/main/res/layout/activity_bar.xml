@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="@drawable/bac" >
+
+
+       <!-- <com.budiyev.android.codescanner.CodeScannerView
+            android:id="@+id/scanner_view"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_marginLeft="55dp"
+            android:layout_marginTop="50dp"
+            app:autoFocusButtonColor="@color/white"
+            app:autoFocusButtonVisible="true"
+            app:flashButtonVisible="true"
+            app:maskColor="@color/black" />-->
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_marginLeft="55dp"
+            android:id="@+id/iv"
+            android:layout_marginTop="20dp"
+
+
+            />
+       <!-- <Button
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="150sp"
+            android:text="scan"
+            android:layout_marginTop="200dp"
+            android:textAllCaps="false"
+            android:id="@+id/scan"
+            android:background="@drawable/b1"
+            />-->
+
+        <TextView
+            android:id="@+id/tv"
+            android:layout_marginTop="50dp"
+            android:layout_width="300dp"
+            android:layout_height="100dp"
+            android:layout_below="@id/iv"
+            android:layout_marginLeft="55dp"
+            android:textColor="@color/white" />
+
+
+        <!--<Button
+            android:layout_width="150dp"
+            android:id="@+id/Scan"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cam"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="20dp"
+            android:text="Scan"
+            android:textAllCaps="false" />-->
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="300dp"
+            android:layout_height="600dp"
+            android:layout_marginLeft="55dp"
+            android:layout_marginTop="500dp"
+            android:background="@drawable/border"
+            android:padding="30dp"
+            android:text="\n\t\t\t\t\t\t\t\tQR code scanner\n\n
+A QR code scanner , also known as the point of sales scanner(POS) or a price scanner, is used to read andcapture the information contained in the barcode.\n\n
+Working:\n
+If the QR code recognition operation succeeds, a list of QR code objects will be passed to the success listener. Each Barcode object represents a barcode that was detected in the image. For each barcode, you can get its bounding coordinates in the input image, as well as the raw data encoded by the barcode. Also, if the barcode scanner was able to determine the type of data encoded by the barcode, you can get an object containing parsed data.\n\n
+Uses:\n
+1. Used to scan QR codes.\n
+2. Long texts and messages that are encrypted using QR codes can be read easily using the QR code scanner.\n
+3. Privacy can be maintained at some extent using the scanner and the information thus lies between the sender\n and the receiver.
+
+"
+            android:textColor="@color/white"
+            tools:ignore="HardcodedText" />
+
+    </RelativeLayout>
+
+</ScrollView>

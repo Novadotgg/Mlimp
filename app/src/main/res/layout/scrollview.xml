@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:ignore="ExtraText"
+    android:background="@drawable/scbg3"
+    android:padding="20dp"
+    tools:context=".NewActivity">
+
+    <TextView
+        android:layout_width="156dp"
+        android:layout_height="180dp"
+        android:text="\t\t\t\t\t\t\tProjects:\n\n
+1: Face Detection.\n\n
+2: Text Recognition.\n\n
+3: Object Detection.\n\n
+4: QR Code Scanner.\n\n
+5. Selfie Segmentation."
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/butn1"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="210dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/b1"
+        android:text="1"
+        android:textAllCaps="false"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:visibility="visible"
+        tools:ignore="HardcodedText,RtlCompat,SmallSp,UnusedAttribute"
+        tools:visibility="visible" />
+
+    <Button
+        android:id="@+id/b2"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_below="@id/butn1"
+        android:layout_marginStart="160dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="-10dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginRight="50dp"
+        android:background="@drawable/b1"
+        android:text="2"
+        android:textAllCaps="false"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:visibility="visible"
+        tools:ignore="HardcodedText,RtlCompat,SmallSp,UnusedAttribute"
+        tools:visibility="visible" />
+
+
+    <Button
+        android:id="@+id/b3"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/b2"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/b1"
+        android:text="3"
+        android:textAllCaps="false"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:visibility="visible"
+        tools:ignore="HardcodedText,RtlCompat,SmallSp,UnusedAttribute"
+        tools:visibility="visible" />
+
+    <Button
+        android:id="@+id/b4"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_below="@id/b3"
+        android:layout_marginStart="155dp"
+        android:layout_marginTop="23dp"
+        android:layout_marginRight="50dp"
+        android:background="@drawable/b1"
+        android:text="4"
+        android:textAllCaps="false"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:visibility="visible"
+        tools:ignore="HardcodedText,RtlCompat,RtlHardcoded,SmallSp,UnusedAttribute"
+        tools:visibility="visible" />
+
+    <Button
+        android:id="@+id/b5"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_below="@id/b4"
+        android:layout_marginStart="240dp"
+        android:layout_marginTop="33dp"
+        android:background="@drawable/b1"
+        android:text="5"
+        android:textSize="25sp"
+        android:visibility="visible"
+        tools:ignore="HardcodedText,RtlCompat,SmallSp,UnusedAttribute"
+        tools:visibility="visible" />
+
+
+</RelativeLayout>
